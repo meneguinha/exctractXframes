@@ -1,12 +1,13 @@
-# 🎬 Last 10 Frames Extractor
+# 🎞️ Video Frame Extractor
 
-A simple Streamlit web application that allows users to upload a video file and easily extract and download its last 10 frames as individual images or as a bundled ZIP file.
+A simple Streamlit web application that allows users to upload a video file, extract frames at regular customizable intervals (every 10, 20, 30, 40, or 50 frames), and preview them. You can download individual frames or download all extracted frames bundled together as a ZIP file.
 
-## ☁️ Run in the Cloud
+## ✨ Features
 
-The easiest way to use the app is to run it directly in your browser without having to install anything!
-
-👉 **[Access the App Here]([https://last10frames.streamlit.app/](https://exctractxframes.streamlit.app/))**
+- **Upload Video**: Supports common formats like MP4, MOV, AVI, and MKV.
+- **Customizable Extraction Interval**: Choose to extract 1 frame every 10, 20, 30, 40, or 50 frames.
+- **Adjustable Preview Grid**: View the extracted frames in different sizes (Super Small, Small, Medium, Large) using an interactive grid layout.
+- **Download Options**: Download frames individually or all at once in a convenient `.zip` file.
 
 ---
 
@@ -18,7 +19,8 @@ If you prefer to run the application on your own machine, follow these steps:
 
 Make sure you have Python installed. You will also need the following Python packages:
 - `streamlit`
-- `opencv-python`
+- `opencv-python-headless`
+- `pillow`
 
 ### Installation
 
@@ -26,7 +28,7 @@ Make sure you have Python installed. You will also need the following Python pac
 2. Open your terminal or command prompt and navigate to the project folder.
 3. Install the required dependencies by running:
    ```bash
-   pip install streamlit opencv-python
+   pip install streamlit opencv-python-headless pillow
    ```
 
 ### Running the Application
