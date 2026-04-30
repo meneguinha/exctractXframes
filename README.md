@@ -11,6 +11,14 @@ A simple Streamlit web application that allows users to upload a video file, ext
 
 ---
 
+## ☁️ Run in the Cloud
+
+The easiest way to use the app is to run it directly in your browser without having to install anything!
+
+👉 **[Access the App Here](https://exctractxframes.streamlit.app/)**
+
+---
+
 ## 💻 Run Locally
 
 If you prefer to run the application on your own machine, follow these steps:
