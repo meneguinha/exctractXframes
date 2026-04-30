@@ -6,7 +6,7 @@ A simple Streamlit web application that allows users to upload a video file and 
 
 The easiest way to use the app is to run it directly in your browser without having to install anything!
 
-👉 **[Access the App Here](https://last10frames.streamlit.app/)**
+👉 **[Access the App Here]([https://last10frames.streamlit.app/](https://exctractxframes.streamlit.app/))**
 
 ---
 
